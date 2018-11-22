@@ -13,7 +13,7 @@ public class Dbconnect {
     public Dbconnect() {
         try{
            Class.forName("com.mysql.jdbc.Driver");
-           con = DriverManager.getConnection("jdbc:mysql://vps.dornyayse.hu:3306/misiek?autoReconnect=true&useSSL=false","misiek","19970227");
+         
            st = con.createStatement();
            
             
